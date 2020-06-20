@@ -1,0 +1,22 @@
+
+
+/*--- navigation bar ---*/
+
+.navbar{
+    padding: 0px;
+}
+
+.navbar-brand{
+    height: 75px;
+    width: 75px;
+    background: url("../images/logo-light.png") center/contain;
+}
+
+.navbar-brand .dark-mode{
+    background: url("../images/logo-dark.png") center/contain;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
