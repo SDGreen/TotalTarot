@@ -32,6 +32,18 @@ nav.light-mode{
     background-color: #E5E6F1;
 }
 
+nav.dark-mode{
+    background-color: #21243D;
+}
+
+nav.light-mode h1{
+    color: #B1871B;
+}
+
+nav.dark-mode h1{
+    color: #F7EACA;
+}
+
 ul.light-mode{
     color: black;
 }
