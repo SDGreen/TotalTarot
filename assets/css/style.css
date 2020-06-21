@@ -44,6 +44,14 @@ nav.dark-mode h1{
     color: #F7EACA;
 }
 
+#mode-button.light-mode{
+    background: url("../images/dark-mode.png") center/contain;
+}
+
+#mode-button.dark-mode{
+    background: url("../images/light-mode.png") center/contain;
+}
+
 ul.light-mode{
     color: black;
 }
@@ -103,6 +111,7 @@ nav .navbar-toggler{
     margin: 0px;
     padding-top: .3125rem;
     padding-bottom: .3125rem;
+    border-radius: 50%;
 }
 
 .nav-link{
