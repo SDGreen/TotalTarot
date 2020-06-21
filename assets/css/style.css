@@ -1,4 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat&display=swap');
 
+/*--- general margins & paddings ---*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*--- Text presets ---*/
+
+.heading{
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.sm-heading{
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.content-text{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/*--- colors ---*/
+
+nav.light-mode{
+    background-color: #E5E6F1;
+}
+
+ul.light-mode{
+    color: black;
+}
+
+ul.dark-mode{
+    color: white;
+}
+
+.nav-item{
+    color: inherit;
+}
+
+.nav-link.active.light-mode{
+    color: #B1871B;
+}
+
+ul.light-mode .nav-link:after{
+    background: black;
+}
+
+ul.dark-mode .nav-link:after{
+    background: white;
+}
 
 /*--- navigation bar ---*/
 
@@ -7,16 +63,61 @@
 }
 
 .navbar-brand{
-    height: 75px;
-    width: 75px;
-    background: url("../images/logo-light.png") center/contain;
+    height: 65px;
+    width: 65px;
+    margin: 0px;
 }
 
-.navbar-brand .dark-mode{
+.navbar-brand.light-mode{
+background: url("../images/logo-light.png") center/contain;
+}
+
+.navbar-brand.dark-mode{
     background: url("../images/logo-dark.png") center/contain;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+.title-text{
+    font-size: 2.1em;
 }
+
+nav .navbar-toggler{
+    padding: .25rem .50rem;
+    margin-right: 0.25em;
+}
+
+#mode-button{
+    height: 65px;
+    width: 65px;
+    margin: 0px;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+}
+
+.nav-link{
+    padding-top: 0;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-link:hover{
+    color: inherit;
+}
+/*--- this code below has been adapted from https://stackoverflow.com/questions/30352431/css-transition-not-working-with-underline ---*/
+.nav-link:after {
+  content: '';
+  color: inherit;
+  width: 0px;
+  height: 1px;
+  display: block;
+  transition: 300ms;
+}
+
+.nav-link:hover:after {
+  width: 100%;;
+}
+
+/*--- end of adapted code --*/
+
+
+
