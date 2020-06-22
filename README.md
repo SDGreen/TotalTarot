@@ -45,4 +45,5 @@ Deployed site: [https://sdgreen.github.io/Walkee/](https://sdgreen.github.io/Wal
 ### Media
 Copyright free images taken from [Free SVG](https://freesvg.org/):
 * [Tribal Sun](https://freesvg.org/sun-tribal-style-art)
+* [Moon](https://freesvg.org/vector-clip-art-of-floral-crescent-moon)
 ## Code 

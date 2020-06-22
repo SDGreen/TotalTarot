@@ -127,6 +127,15 @@ nav .navbar-toggler{
     border-radius: 50%;
     transition: 200ms;
 }
+
+#mode-button.light-mode:hover{
+    background: url("../images/light-mode.png") center/contain;
+}
+
+#mode-button.dark-mode:hover{
+    background: url("../images/dark-mode.png") center/contain;
+}
+
 .nav-link{
     padding-top: 0;
     text-align: center;
