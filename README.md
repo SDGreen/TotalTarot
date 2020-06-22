@@ -44,6 +44,15 @@ Deployed site: [https://sdgreen.github.io/Walkee/](https://sdgreen.github.io/Wal
 ## Credits
 ### Media
 Copyright free images taken from [Free SVG](https://freesvg.org/):
-* [Tribal Sun](https://freesvg.org/sun-tribal-style-art)
-* [Moon](https://freesvg.org/vector-clip-art-of-floral-crescent-moon)
+* [Tribal Sun](https://freesvg.org/sun-tribal-style-art) Edited to make [light-mode.png](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/light-mode.png)
+* [Moon](https://freesvg.org/vector-clip-art-of-floral-crescent-moon) Edited to create [dark-mode.png](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/dark-mode.png)
+
+Logos created using [FreeLogoDesign](https://www.freelogodesign.org/):
+* [Total Tarot Logo](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/logo-light.png) (file name: logo-light.png)
+* [Dark Total Tarot Logo](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/logo-dark.png) (file name: logo-dark.png)
+*
+
+Favicon created using [Favicon.io](https://favicon.io/favicon-converter/) from edited logo:
+*[Favicon](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/favicon.png) (file name: favicon.png)
+
 ## Code 
