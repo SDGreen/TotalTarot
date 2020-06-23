@@ -47,10 +47,17 @@ Copyright free images taken from [Free SVG](https://freesvg.org/):
 * [Tribal Sun](https://freesvg.org/sun-tribal-style-art) Edited to make [light-mode.png](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/light-mode.png)
 * [Moon](https://freesvg.org/vector-clip-art-of-floral-crescent-moon) Edited to create [dark-mode.png](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/dark-mode.png)
 
+Copyright free images taken from [Need Pix](https://www.needpix.com/):
+* [Tarot Deck](https://www.needpix.com/photo/download/476089/tarot-cards-magic-fortune-telling-gypsy-esoteric-mystical-prediction) (file name: tarot-cover.jpg)
+* [Scatter cards](https://www.needpix.com/photo/download/1238549/metaphysical-tarot-occult-cards-art-free-pictures-free-photos-free-images-royalty-free) (file name: cards.jpg)
+* [Card Reading](https://www.needpix.com/photo/download/1615529/tarot-magician-magic-witch-occult-destiny-mysticism-symbol-fortune) (file name: reading.jpg)
+* [Cards being dealt](https://www.needpix.com/photo/909476/playing-cards-cards-player-distribute) (file name: dealing-cards.jpg)
+Copyright free images taken from [Pxhere])(https://pxhere.com/)
+*[Book](https://pxhere.com/en/photo/498594) (file name: book.jpg)
+
 Logos created using [FreeLogoDesign](https://www.freelogodesign.org/):
 * [Total Tarot Logo](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/logo-light.png) (file name: logo-light.png)
 * [Dark Total Tarot Logo](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/logo-dark.png) (file name: logo-dark.png)
-*
 
 Favicon created using [Favicon.io](https://favicon.io/favicon-converter/) from edited logo:
 *[Favicon](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/favicon.png) (file name: favicon.png)

@@ -17,7 +17,7 @@ body {
 .sm-heading{
     font-family: "Cinzel", serif;
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .content-text{
@@ -144,6 +144,47 @@ footer.dark-mode{
     color: #F7EACA;
 }
 
+#cover.light-mode{
+    background-color: rgba(0, 4, 63, 0.4);
+}
+
+#cover.dark-mode{
+    background-color: rgba(250, 250, 210, 0.06);
+}
+
+#site-summary.light-mode{
+    background-color: #F9C7D1;
+    color:#2a2a2a;
+}
+
+#site-summary.dark-mode{
+    background-color: #5D091A;
+    color: #ffffff;
+}
+
+#site-summary.light-mode h3{
+    color: #B1871B;
+}
+
+#site-summary.dark-mode h3{
+color:#F7EACA;
+}
+
+#site-summary.light-mode i{
+    color: #21243D;
+}
+
+#site-summary.dark-mode i{
+    color: #E5E6F1;
+}
+
+#site-summary.light-mode i:hover{
+    color: #B1871B;
+}
+
+#site-summary.dark-mode i:hover{
+    color: #B1871B;
+}
 /*--- navigation bar ---*/
 
 .navbar{
@@ -262,6 +303,62 @@ nav .navbar-toggler{
 #footer-mode-button.dark-mode:hover{
     background: url("../images/dark-mode.png") center/contain;
 }
+
+/*--- home page ---*/
+
+#callout{
+    width: 100%;
+    height: 75vh;
+    padding: 0;
+    background:  url("../images/tarot-cover.jpg") center/cover;
+}
+
+#cover{
+    width: 100%;
+    Height: 100%;
+}
+
+.jumbotron{
+    height: 65%;
+    width: 75%;
+    margin: auto;
+    opacity: 0.85;
+}
+
+#site-summary{
+    padding-top: 15px;
+}
+.page-summary{
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.divider{
+    margin-top: 0px;
+    margin-bottom: 1em;
+    border: 2px solid #B1871B;
+    width: 30vw;
+}
+
+#site-summary .sm-heading{
+    font-size: 1.2em
+}
+
+.summary-text{
+    margin-top: 10px;
+}
+
+.summary-image{
+    height: 55%;
+}
+
+#site-summary i{
+    font-size: 3em;
+    transition: 300ms;
+}
+ #site-summary a:hover{
+     text-decoration: none;
+ }
 
 
 
