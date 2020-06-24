@@ -360,6 +360,12 @@ nav .navbar-toggler{
      text-decoration: none;
  }
 
+/*--- Classes page ---*/
+
+#map {
+    height: 50vh;
+    width: 90vw;
+}
 
 
 
