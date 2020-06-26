@@ -139,15 +139,40 @@ function initMap(){
                 map: map,
                 content: classes[i].info,
                 });
-            google.maps.event.addListener(marker, 'click', function() {
-                alert(this.content.phone);
-                });
+            google.maps.event.addListener(marker, 'click', function(){
+                let dataTarget = document.getElementById("map-data-target");
+                dataTarget.innerHTML = `
+                <div id="map-data" class="conatainer-fluid">
+                <h3 class="heading text-center">${this.content.name}</h3>
+                <div class="row">
+                    <div class="col-12 col-md-2">
+                        <p class="sm-heading">Phone:<p>
+                    </div>
+                    <div class="offset-2 offset-md-0 col-12 col-md-10">
+                        <p class="content-text">${this.content.phone}<p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-2">
+                        <p class="sm-heading">Address:<p>
+                    </div>
+                    <div class="offset-2 offset-md-0 col-12 col-md-10">
+                        <p class="content-text">${this.content.address}<p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-2">
+                        <p class="sm-heading">Website:<p>
+                    </div>
+                    <div class="offset-2 offset-md-0 col-12 col-md-10">
+                        <p class="content-text"><a href="${this.content.website}">${this.content.name}</a><p>
+                    </div>
+                </div>
+                
+                <p class="content-text text-center">Or learn online with our free <a href="../../deck.html">Tarot Card Library</a></p>
+                <div>`
+            });
     }
 
-}
-
-renderMapData = function(){
-    let dataTarget = document.getElementById("map-data-target");
-    dataTarget.style.height = "400px"
 }
 

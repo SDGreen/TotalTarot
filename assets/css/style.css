@@ -185,6 +185,42 @@ color:#F7EACA;
 #site-summary.dark-mode i:hover{
     color: #B1871B;
 }
+
+#map-intro.light-mode{
+    background-color: #F7EACA;
+    color: #2a2a2a
+}
+
+#map-intro.dark-mode{
+    background-color: #B1871B;
+    color: #ffffff;
+}
+
+#map-info.light-mode{
+    background-color: #F9C7D1;
+}
+
+#map-info.dark-mode{
+    background-color: #21243D;
+}
+
+#map-data-target.light-mode{
+    background-color: #E5E6F1;
+    color: #2a2a2a;
+}
+
+#map-data-target.dark-mode{
+    background-color: #5D091A;
+    color: #E5E6F1;
+}
+
+#map-data-target.light-mode h3{
+    color:#B1871B;
+}
+
+#map-data-target.dark-mode h3{
+    color: #F7EACA;
+}
 /*--- navigation bar ---*/
 
 .navbar{
@@ -362,9 +398,45 @@ nav .navbar-toggler{
 
 /*--- Classes page ---*/
 
+#map-intro{
+    padding: 20px 20px;
+}
+
+#map-intro h1{
+    margin-bottom: 10px;
+    font-size:1.5em;
+}
+
+#map-intro p{
+    margin-bottom: 0px;
+}
+
+#map-info{
+    padding: 30px 0px;
+}
+
 #map {
     height: 50vh;
     width: 90vw;
+}
+
+#map-data-target{
+    width: 75vw;
+    margin-top: 20px;
+}
+
+#map-data{
+    padding: 20px 40px;
+}
+
+#map-data h3{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+
+}
+
+#map-data a{
+    text-decoration: underline;
 }
 
 
