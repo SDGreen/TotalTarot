@@ -1,10 +1,17 @@
+ if(!localStorage.mode){
+        localStorage.setItem("mode", "light-mode");
+    } else {
+        darkMode(localStorage.mode)
+    }
+
+
 function darkMode(mode){
 
     let modeButton = document.getElementById("mode-button");
     let navModeButton = document.getElementById("mode-collapse-button");
     let footerModeButton = document.getElementById("footer-mode-button");
     let currentModeLabel = document.getElementById("current-mode");
-    
+
      if(mode === "light-mode"){
 
          let lightElements = [].slice.call(document.getElementsByClassName("light-mode"));
@@ -17,6 +24,7 @@ function darkMode(mode){
             navModeButton.outerHTML = `<li id="mode-collapse-button" onclick="darkMode('dark-mode')" class="nav-item d-sm-none"><a class="nav-link">Light Mode</a></li>`;
             footerModeButton.outerHTML = `<div id="footer-mode-button" onclick="darkMode('dark-mode')" class="dark-mode">`
             currentModeLabel.innerText = "dark mode"
+            localStorage.mode = "light-mode"
     } else {
 
         let darkElements = [].slice.call(document.getElementsByClassName("dark-mode"));
@@ -30,5 +38,10 @@ function darkMode(mode){
         navModeButton.outerHTML = `<li id="mode-collapse-button" onclick="darkMode('light-mode')" class="nav-item d-sm-none"><a class="nav-link">Dark Mode</a></li>`;
         footerModeButton.outerHTML = `<div id="footer-mode-button" onclick="darkMode('light-mode')" class="light-mode">`
         currentModeLabel.innerText = "light mode"
+        localStorage.mode = "dark-mode"
     }
+
+    document.readyState(
+
+    )
 }
