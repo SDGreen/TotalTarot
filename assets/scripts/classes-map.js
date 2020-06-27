@@ -138,7 +138,7 @@ function initMap(){
                 position: classes[i].latlng,
                 map: map,
                 content: classes[i].info,
-                icon: "https://raw.githubusercontent.com/SDGreen/TotalTarot/master/assets/images/favicon.png",
+                icon: "https://raw.githubusercontent.com/SDGreen/TotalTarot/master/assets/images/map-marker.png",
                 });
             google.maps.event.addListener(marker, 'click', function(){
                 let dataTarget = document.getElementById("map-data-target");
