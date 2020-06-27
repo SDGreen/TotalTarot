@@ -52,8 +52,12 @@ Copyright free images taken from [Need Pix](https://www.needpix.com/):
 * [Scatter cards](https://www.needpix.com/photo/download/1238549/metaphysical-tarot-occult-cards-art-free-pictures-free-photos-free-images-royalty-free) (file name: cards.jpg)
 * [Card Reading](https://www.needpix.com/photo/download/1615529/tarot-magician-magic-witch-occult-destiny-mysticism-symbol-fortune) (file name: reading.jpg)
 * [Cards being dealt](https://www.needpix.com/photo/909476/playing-cards-cards-player-distribute) (file name: dealing-cards.jpg)
+
 Copyright free images taken from [Pxhere])(https://pxhere.com/)
 *[Book](https://pxhere.com/en/photo/498594) (file name: book.jpg)
+
+Copyright free images taken from [Wikipedia Commons])(https://commons.wikimedia.org/wiki/Main_Page)
+*[Card Back](https://commons.wikimedia.org/wiki/File:Russian_style_card_back.jpg) (file name: card-back.jpg)
 
 Logos created using [FreeLogoDesign](https://www.freelogodesign.org/):
 * [Total Tarot Logo](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/logo-light.png) (file name: logo-light.png)
