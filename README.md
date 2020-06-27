@@ -66,4 +66,7 @@ Logos created using [FreeLogoDesign](https://www.freelogodesign.org/):
 Favicon created using [Favicon.io](https://favicon.io/favicon-converter/) from edited logo:
 *[Favicon](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/favicon.png) (file name: favicon.png)
 
+Images created from edited assets:
+* [Map Marker](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/map-marker-final.png) (file name: map-marker-final.png)
+
 ## Code 

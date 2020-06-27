@@ -138,7 +138,7 @@ function initMap(){
                 position: classes[i].latlng,
                 map: map,
                 content: classes[i].info,
-                icon: "https://raw.githubusercontent.com/SDGreen/TotalTarot/master/assets/images/map-marker.png",
+                icon: "https://raw.githubusercontent.com/SDGreen/TotalTarot/master/assets/images/map-marker-final.png",
                 });
             google.maps.event.addListener(marker, 'click', function(){
                 let dataTarget = document.getElementById("map-data-target");
@@ -172,6 +172,9 @@ function initMap(){
                 
                 <p class="content-text text-center">Or learn online with our free <a href="../../deck.html">Tarot Card Library</a></p>
                 <div>`
+                map.setCenter(this.position);
+                map.setZoom(10);
+
             });
     }
 
