@@ -40,8 +40,4 @@ function darkMode(mode){
         currentModeLabel.innerText = "light mode"
         localStorage.mode = "dark-mode"
     }
-
-    document.readyState(
-
-    )
 }
