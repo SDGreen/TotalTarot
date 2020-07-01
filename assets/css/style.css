@@ -439,5 +439,24 @@ nav .navbar-toggler{
     text-decoration: underline;
 }
 
+/*--- Deck page ---*/
 
+#deck {
+    padding-top: 1em;
+}
 
+.card{
+    width: 260px;
+    border: 0px;
+}
+
+.card img{
+    width: 130px;
+    height: 200px;
+    border-radius: 11px;
+}
+
+.card-name{
+    width: 50%;
+    margin-top: 1rem;
+}
