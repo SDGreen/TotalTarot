@@ -166,7 +166,7 @@ function initMap(){
                         <p class="sm-heading">Website:<p>
                     </div>
                     <div class="offset-2 offset-md-0 col-12 col-md-10">
-                        <p class="content-text"><a href="${this.content.website}">${this.content.name}</a><p>
+                        <p class="content-text"><a href="${this.content.website}" target=_blank>${this.content.name}</a><p>
                     </div>
                 </div>
                 

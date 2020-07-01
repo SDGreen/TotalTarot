@@ -221,6 +221,32 @@ color:#F7EACA;
 #map-data-target.dark-mode h3{
     color: #F7EACA;
 }
+
+#deck.light-mode{
+    background-color: #F7EACA;
+    color: #2a2a2a;
+}
+
+#deck.dark-mode{
+    background-color: #5D091A;
+    color: #ffffff
+}
+
+.card{
+    background-color: inherit;
+}
+
+#deck.dark-mode .card-name{
+    transition: 200ms;
+}
+
+#deck.light-mode .card-name:hover{
+    color: #B1871B;
+}
+
+#deck.dark-mode .card-name:hover{
+    color: #B1871B;
+}
 /*--- navigation bar ---*/
 
 .navbar{
@@ -456,7 +482,7 @@ nav .navbar-toggler{
     border-radius: 11px;
 }
 
-.card-name{
+.card-text{
     width: 50%;
     margin-top: 1rem;
 }

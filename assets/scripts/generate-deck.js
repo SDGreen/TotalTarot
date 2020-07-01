@@ -34,10 +34,10 @@ $(document).ready(function(){
             let card = `<div class="card col-auto" id="${cardId}">
                             <div class="row">
                                 <div class="col-12">
-                                    <img class="mx-auto d-block" src="assets/images/card-back.jpg" alt="Back of card">
+                                    <img class="mx-auto d-block" src="assets/images/card-back.jpg" alt="Back of card" onclick="showCardInfo(${cardId})">
                                 </div>
-                                <div class="col-12 card-name">
-                                    <p class="text-center sm-heading">${cardName}</p>
+                                <div class="col-12 card-text">
+                                    <p class="text-center sm-heading card-name" onclick="showCardInfo(${cardId})">${cardName}</p>
                                 </div>
                             </div>
                         </div>`
