@@ -247,6 +247,14 @@ color:#F7EACA;
 #deck.dark-mode .card-name:hover{
     color: #B1871B;
 }
+
+.card-info.shown.dark-mode{
+    background-color: #F9C7D1;
+}
+.card-info.shown.light-mode{
+    background-color: #2a2a2a;
+}
+
 /*--- navigation bar ---*/
 
 .navbar{
@@ -468,21 +476,32 @@ nav .navbar-toggler{
 /*--- Deck page ---*/
 
 #deck {
-    padding-top: 1em;
+    position: relative;
 }
 
 .card{
     width: 260px;
     border: 0px;
+    padding-top: 1em;
 }
 
-.card img{
+.card-image{
     width: 130px;
     height: 200px;
+    background: url("../images/card-back.jpg") center/contain;
     border-radius: 11px;
 }
 
 .card-text{
-    width: 50%;
     margin-top: 1rem;
+    padding: 0px;
+}
+
+.card-info.shown{
+    width: 100%;
+    padding-top: 1em;
+}
+
+.card-info p{
+    padding: 0em 1em;
 }
