@@ -540,8 +540,8 @@ nav .navbar-toggler{
 #back-to-top {
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 10px;
+  right: 10px;
   z-index: 150;
   border: none;
   outline: none;
