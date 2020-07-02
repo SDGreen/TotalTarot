@@ -150,11 +150,11 @@ footer.dark-mode{
     color: #F7EACA;
 }
 
-#cover.light-mode{
+.cover.light-mode{
     background-color: rgba(0, 4, 63, 0.4);
 }
 
-#cover.dark-mode{
+.cover.dark-mode{
     background-color: rgba(250, 250, 210, 0.06);
 }
 
@@ -278,7 +278,7 @@ color:#F7EACA;
     color: #ffffff
 }
 
-.card{
+.tarot-card{
     background-color: inherit;
 }
 
@@ -301,6 +301,20 @@ color:#F7EACA;
 .card-info.shown.dark-mode{
     background-color: #2a2a2a;
     border: 1px solid #E5E6F1;
+}
+
+#how-to-read.light-mode{
+    background-color: #F7EACA;
+    color: #2a2a2a;
+}
+
+#how-to-read.dark-mode{
+    background-color: #5D091A;
+    color: #ffffff;
+}
+
+#how-to-read.dark-mode>h2{
+    color: #F7EACA;
 }
 
 /*--- navigation bar ---*/
@@ -431,7 +445,7 @@ nav .navbar-toggler{
     background:  url("../images/tarot-cover.jpg") center/cover;
 }
 
-#cover{
+.cover{
     width: 100%;
     Height: 100%;
 }
@@ -448,7 +462,7 @@ nav .navbar-toggler{
 }
 
 .jumbotron p{
-    margin-bottom: 0;
+    margin: 0px 3em 0px;
 }
 
 .logo-card{
@@ -504,7 +518,7 @@ nav .navbar-toggler{
 }
 
 #map-intro p{
-    margin-bottom: 0px;
+    margin: 0 1em 0;
 }
 
 #map-info{
@@ -565,7 +579,7 @@ nav .navbar-toggler{
     margin-left: 1em;
 }
 
-.card{
+.tarot-card{
     width: 260px;
     border: 0px;
     padding: 0em 1em 1em;
@@ -624,8 +638,38 @@ nav .navbar-toggler{
 }
 
 
+/*--- How to read page ---*/
 
-/*-------------------------------media queries*/
+#how-to-read h2{
+    padding: 2em;
+}
+
+#spread-img{
+    background: url("../images/tarot-spread.jpg") center/cover;
+    width: 80vw;
+    height: 40vh;
+}
+
+#instructions{
+    padding: 2em 1em 1em;
+}
+
+#accordion{
+    padding: 0em 0em 1.5em;
+    margin: auto;
+}
+
+.card{
+    width: 80vw;
+    margin: auto;
+}
+
+.card-image{
+    width: 210px;
+    height: 120px;
+}
+
+/*--- media queries ---*/
 
 @media(max-height: 600px) {
     #callout {
@@ -640,8 +684,21 @@ nav .navbar-toggler{
     }
 }
 
-/*-----------------------------code used to fix website on landscape devices
-The code was taken from: https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/*/
+@media(min-width: 1000px) {
+    #map-intro p{
+        margin: 0 25% 0;
+    }
+}
+
+@media(min-width: 1300px) {
+    .card{
+        max-width: 1040px;
+    }
+}
+
+/*--- lanscape orientation media queries ---*/
+
+/*--- The code was taken from: https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/ ---*/
 @media(max-width: 1024px) and (orientation : landscape) {
   #callout {
         height: 90vw;
