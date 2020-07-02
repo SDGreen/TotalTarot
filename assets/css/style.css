@@ -228,6 +228,19 @@ color:#F7EACA;
     color: #F7EACA;
 }
 
+#back-to-top.light-mode{
+    color: #2a2a2a;
+}
+
+#back-to-top.dark-mode{
+    color: #E5E6F1;
+}
+
+#back-to-top:hover{
+    color: #B1871B;
+}
+
+
 #deck-intro.light-mode{
     background-color: #F7EACA;
     color: #2a2a2a;
@@ -523,6 +536,23 @@ nav .navbar-toggler{
 }
 
 /*--- Deck page ---*/
+
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 150;
+  border: none;
+  outline: none;
+  color: #2a2a2a;
+  cursor: pointer;
+  padding: 0px;
+  background-color: transparent;
+  border-radius: 50%;
+  font-size: 2em;
+  transition: 200ms;
+}
 
 #deck-intro {
     padding: 1em;
