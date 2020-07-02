@@ -36,7 +36,14 @@ $(document).ready(function(){
             let card = `<div class="card col-auto" id="${cardId}">
                             <div class="row">
                                 <div class="col-12 text-center">
-                                    <div class="card-image d-inline-block" onclick="showCardInfo(${cardId})"></div>
+                                
+                                <div class="card-housing d-inline-block" onclick="showCardInfo(${cardId})"> 
+                                    <div class="card-inner"> 
+                                        <div class="card-face card-front"></div> 
+                                        <div class="card-face card-back"></div> 
+                                    </div> 
+                                </div>
+
                                 </div>
                                 <div class="col-12 card-text">
                                     <p class="text-center sm-heading card-name" onclick="showCardInfo(${cardId})">${cardName}</p>
@@ -45,6 +52,11 @@ $(document).ready(function(){
                                 </div>
                             </div>
                         </div>`
+
+                        /*<div class="col-12 text-center">
+                            <div class="card-image d-inline-block" onclick="showCardInfo(${cardId})"></div>
+                        <div> old card*/
+
             $("#deck").append(card);
         };
     }
