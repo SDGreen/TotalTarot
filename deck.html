@@ -54,12 +54,14 @@
         </div>
     </nav>
 
-    <div id="deck-intro">
-        <h3 class="heading">Reveal the secerts of the cards</h3>
-        <h4 class="sm-heading"> Simply click on the card or card name to find it's meaning</h4>
-        <p class="content-text">or search for a specific card here</p>
-        <select></select>
-        <button id="cardBtn">Find Card</button>
+    <div id="deck-intro" class="light-mode">
+        <h3 class="sub-heading text-center">Reveal the secerts of the cards</h3>
+        <h4 class="sm-heading text-center"> Simply click on the card or card name to find it's meaning</h4>
+        <p class="content-text text-center">or search for a specific card here:</p>
+        <div id="searh-box" class="d-flex justify-content-center">
+            <select class="rounded"></select>
+            <button id="cardBtn" class="btn btn-light">Find Card</button>
+        </div>
     </div>
     <div class="container-fluid"> 
         <div id="deck" class="row justify-content-center light-mode"></div>

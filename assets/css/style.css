@@ -14,6 +14,12 @@ body {
     font-size: 2em;
 }
 
+.sub-heading{
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
 .sm-heading{
     font-family: "Cinzel", serif;
     font-weight: 700;
@@ -222,6 +228,33 @@ color:#F7EACA;
     color: #F7EACA;
 }
 
+#deck-intro.light-mode{
+    background-color: #F7EACA;
+    color: #2a2a2a;
+}
+
+#deck-intro.dark-mode{
+    background-color: #2a2a2a;
+    color:#ffffff;
+}
+
+#deck-intro.light-mode h3{
+   color:#B1871B;
+}
+
+#deck-intro.dark-mode h3{
+    color:#F7EACA;
+} 
+
+#deck-intro.light-mode #cardBtn{
+    color: #2a2a2a;
+}
+
+#deck-intro.dark-mode #cardBtn{
+    color: #ffffff;
+    background-color: #B1871B;
+}
+
 #deck.light-mode{
     background-color: #F7EACA;
     color: #2a2a2a;
@@ -399,10 +432,6 @@ nav .navbar-toggler{
     color: #B1871B;
 }
 
-.jumbotron h2{
-    font-size: 1.5em;
-}
-
 .jumbotron p{
     margin-bottom: 0;
 }
@@ -494,10 +523,14 @@ nav .navbar-toggler{
 /*--- Deck page ---*/
 
 #deck-intro {
-    background-color: white;
+    padding: 1em;
 }
 #deck {
     padding-top: 1em;
+}
+
+#cardBtn{
+    margin-left: 1em;
 }
 
 .card{
