@@ -52,12 +52,10 @@ $(document).ready(function(){
                                 </div>
                             </div>
                         </div>`
-
-                        /*<div class="col-12 text-center">
-                            <div class="card-image d-inline-block" onclick="showCardInfo(${cardId})"></div>
-                        <div> old card*/
+            let searchName = `<option value="${cardId}">${cardName}</option>`
 
             $("#deck").append(card);
+            $("select").append(searchName);
         };
     }
 

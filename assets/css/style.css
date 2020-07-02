@@ -493,6 +493,9 @@ nav .navbar-toggler{
 
 /*--- Deck page ---*/
 
+#deck-intro {
+    background-color: white;
+}
 #deck {
     padding-top: 1em;
 }
