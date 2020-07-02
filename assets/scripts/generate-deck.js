@@ -46,7 +46,6 @@ $(document).ready(function(){
                             </div>
                         </div>`
             $("#deck").append(card);
-            $("card-info").slideUp();
         };
     }
 

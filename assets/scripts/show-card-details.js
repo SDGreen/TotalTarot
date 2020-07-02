@@ -1,6 +1,11 @@
 function showCardInfo(id){
     let cardId = id;
-    let mode = localStorage.mode
+    let mode;
+    if (localStorage.mode === "light-mode"){
+        mode = "dark-mode";
+    } else {
+        mode = "light-mode"
+    }
     $("#deck").find(".card-name").fadeIn();
     $("#deck").find(".card-info").slideUp().removeClass("shown light-mode dark-mode");
     $(`#${cardId} .card-name`).fadeOut();
@@ -11,6 +16,7 @@ function showCardInfo(id){
     ).then(
         function(response) {
             renderCardData(response, displayData);
+            cardFlip(response);
         },
         function(errorResponse) {
             if (errorResponse.status === 404) {
@@ -29,7 +35,6 @@ function showCardInfo(id){
     }
 
     function renderCardData(data, callback){
-        console.log(data);
         let cardData = `<div class="row">
                             <div class="col-12">
                                 <div class="row">
@@ -63,6 +68,11 @@ function showCardInfo(id){
                             </div>
                         </div>`
         callback(cardData);
+    }
+
+    function cardFlip(cardData){
+        $(`#${cardId} .card-image`).attr(`"src", "${cardData.image}"`);
+        console.log(cardData.image)
     }
 
 };
