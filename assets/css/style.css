@@ -389,10 +389,28 @@ nav .navbar-toggler{
 }
 
 .jumbotron{
-    height: 65%;
     width: 75%;
     margin: auto;
+    padding-bottom: 0;
     opacity: 0.85;
+}
+
+.jumbotron h1{
+    color: #B1871B;
+}
+
+.jumbotron h2{
+    font-size: 1.5em;
+}
+
+.jumbotron p{
+    margin-bottom: 0;
+}
+
+.logo-card{
+    height: 200px;
+    width: 200px;
+    background: url("../images/logo-card-dark.png") center/contain;
 }
 
 #site-summary{
@@ -476,13 +494,13 @@ nav .navbar-toggler{
 /*--- Deck page ---*/
 
 #deck {
-    position: relative;
+    padding-top: 1em;
 }
 
 .card{
     width: 260px;
     border: 0px;
-    padding-top: 1em;
+    padding: 0em 1em 1em;
 }
 
 .card-housing{
@@ -518,16 +536,14 @@ nav .navbar-toggler{
 .card-inner.flipped {
   transform: rotateY(180deg);
 }
-/*.card-image{
-    width: 130px;
-    height: 200px;
-    background: url("../images/card-back.jpg") center/contain;
-    border-radius: 11px;
-} old card*/
 
 .card-text{
     margin-top: 1rem;
     padding: 0px;
+}
+
+.card-name{
+    margin: 0;
 }
 
 .card-info.shown{
@@ -537,4 +553,33 @@ nav .navbar-toggler{
 
 .card-info p{
     padding: 0em 1em;
+}
+
+
+
+/*-------------------------------media queries*/
+
+@media(max-height: 600px) {
+    #callout {
+        height: 85vh;
+    }
+}
+
+@media(min-width: 1050px) {
+    #map {
+        height: 65vh;
+    width: 65vw;
+    }
+}
+
+/*-----------------------------code used to fix website on landscape devices
+The code was taken from: https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/*/
+@media(max-width: 1024px) and (orientation : landscape) {
+  #callout {
+        height: 90vw;
+    }
+
+    #map{
+        height: 75vw;
+    }
 }
