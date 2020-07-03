@@ -1,10 +1,11 @@
- if(!localStorage.mode){
+    /* check last used mode */
+    if(!localStorage.mode){
         localStorage.setItem("mode", "light-mode");
     } else {
         darkMode(localStorage.mode)
     }
 
-
+/*code for the main buttons*/
 function darkMode(mode){
 
     let modeButton = document.getElementById("mode-button");

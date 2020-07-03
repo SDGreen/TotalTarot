@@ -1,5 +1,5 @@
-# Walkee App Website
-Deployed site: [https://sdgreen.github.io/Walkee/](https://sdgreen.github.io/Walkee/)
+# Totat Tarot Website
+Deployed site: [https://sdgreen.github.io/TotalTarot/](https://sdgreen.github.io/TotalTarot/)
 ## Table of Contents
 1. [Aim](#aim)
 2. [UX](#ux)
@@ -12,6 +12,12 @@ Deployed site: [https://sdgreen.github.io/Walkee/](https://sdgreen.github.io/Wal
 ---
 
 ## Aim
+
+The aim of Total Tarot is to provide a place for people new to Tarot cards to learn more and find classes if they are UK based.
+A key aim was to make the learning as interactive as possible so reader want to continue learning to drive traffic to our mentors websites.
+For viewers not based in the UK it is still important for the website to stand out as an interactive learning tool, this will drive users to our website and establish Total Tarot as a trusted voice within the community.
+
+
 ## UX
 ### Target Demographic
 ### User Stories
@@ -22,13 +28,15 @@ Deployed site: [https://sdgreen.github.io/Walkee/](https://sdgreen.github.io/Wal
 ## Technologies Used
 * [HTML5](https://html.spec.whatwg.org/multipage/) - To create the structure of the page.
 * [CSS3](https://www.w3.org/Style/CSS/Overview.en.html) - Used to style the website.
-* [Bootstrap v4.3.1](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - This framework was used to create a responsive mobile-first design and include functioning components.
-* [JavaScript](https://www.javascript.com/) - Inculded with Bootstrap libraries to give components functionality.
+* [Bootstrap v4.5.0](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - This framework was used to create a responsive mobile-first design along with some components such as the navbar and accordion.
+* [JavaScript](https://www.javascript.com/) - Inculded with Bootstrap libraries to give components functionality, also used to code dark-mode.js and classes-map.js.
+* [jQuery](https://jquery.com/) - Included with Bootstrap, also used to code find-cars.js, show-card-details.js and generate-deck.js (along with some vanilla javascript)
 * [Git](https://git-scm.com/) - Used for version control and tracking changes to the code whilst in development.
 * [GitHub Pages](https://pages.github.com/) - Used to deploy the website.
 * [Google Fonts](https://fonts.google.com/) - Used for website fonts [Cinzel](https://fonts.google.com/specimen/cinzel) for headings and [Montserrat](https://fonts.google.com/specimen/Montserrat) for content text.
 * [Font Awesome](https://fo*ntawesome.com/) - This library provided the Icons used across the site.
-* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Key for testing responsivness, trialing styles and 
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Key for testing respon
+* [Autoprefixer](https://autoprefixer.github.io/) - Used to prefix the css file so that transitions would work across different browsers
 ## Testing
 ### Responsive Design Testing
 ### Browser testing

@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+    /* code for search bar */
     $("#cardBtn").click(function(){
         let elementId = $("select").val()
         showCardInfo(elementId);
@@ -6,6 +8,8 @@ $(document).ready(function(){
         element.scrollIntoView({behavior: "smooth", block: "end"});
     });
 
+
+    /*code for back to stop button */
     window.onscroll = function(){scrollFunction()};
 
     function scrollFunction() {
@@ -13,10 +17,10 @@ $(document).ready(function(){
             $("#back-to-top").fadeIn().css("display", "block")
         } else {
             $("#back-to-top").fadeOut();
+        }
     }
 
     $("#back-to-top").click(function(){
         $(window).scrollTop(0);
-    })
-}
+    });
 });
