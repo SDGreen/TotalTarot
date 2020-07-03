@@ -21,7 +21,7 @@ function showCardInfo(id){
         function(errorResponse) {
             if (errorResponse.status === 404) {
                 $("#deck").html(
-                    `<h2 class="sm-heading">Whoops! looks like the future cannot be found...</h2>`);
+                    `<h2 class="sm-heading">Whoops! Looks like the future cannot be found...</h2>`);
             } else {
                 console.log(errorResponse);
                 $("#deck").html(
@@ -48,7 +48,7 @@ function showCardInfo(id){
                                         <h3 class="sm-heading text-center">Upright Meaning:</h3>
                                     </div>
                                     <div class="col-12">
-                                        <p>${data.upright}</p>
+                                        <p class="content-text">${data.upright}</p>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@ function showCardInfo(id){
                                         <h3 class="sm-heading text-center">Inverted Meaning:</h3>
                                     </div>
                                     <div class="col-12">
-                                        <p>${data.reversed}</p>
+                                        <p class="content-text">${data.reversed}</p>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ function showCardInfo(id){
                                         <h3 class="sm-heading text-center">Summary:</h3>
                                     </div>
                                     <div class="col-12">
-                                        <p>${data.summary}</p>
+                                        <p class="content-text">${data.summary}</p>
                                     </div>
                                 </div>
                             </div>
