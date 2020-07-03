@@ -37,10 +37,7 @@ function showCardInfo(id){
     function cardFlip(cardData){
         let backgroundImage = {"background": `url(${cardData.image}) no-repeat center/contain`}
         $(`#${cardId} .card-back`).css(backgroundImage);
-
-
         $(`#${cardId} .card-inner`).addClass("flipped");
-        console.log(cardData.image)
     }
 
     function renderCardData(data, callbackOne, callbackTwo){

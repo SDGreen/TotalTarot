@@ -31,8 +31,7 @@ $(document).ready(function(){
 
         for (i = 0; i < 79; i++) {
             let cardId = i+1;
-            let cardName = getCardName(i)
-            let cardInfo = deckInfo.i
+            let cardName = getCardName(i);        
             let card = `<div class="tarot-card col-auto" id="${cardId}">
                             <div class="row">
                                 <div class="col-12 text-center">
