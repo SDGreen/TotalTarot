@@ -696,7 +696,7 @@ nav .navbar-toggler{
     }
 }
 
-/*--- lanscape orientation media queries ---*/
+/*--- landscape orientation media queries ---*/
 
 /*--- The code was taken from: https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/ ---*/
 @media(max-width: 1024px) and (orientation : landscape) {
