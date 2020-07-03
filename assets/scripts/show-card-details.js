@@ -48,7 +48,7 @@ function showCardInfo(id){
                                         <h3 class="sm-heading text-center">Upright Meaning:</h3>
                                     </div>
                                     <div class="col-12">
-                                        <p class="content-text">${data.upright}</p>
+                                        <p class="slim-content-text">${data.upright}</p>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@ function showCardInfo(id){
                                         <h3 class="sm-heading text-center">Inverted Meaning:</h3>
                                     </div>
                                     <div class="col-12">
-                                        <p class="content-text">${data.reversed}</p>
+                                        <p class="slim-content-text">${data.reversed}</p>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ function showCardInfo(id){
                                         <h3 class="sm-heading text-center">Summary:</h3>
                                     </div>
                                     <div class="col-12">
-                                        <p class="content-text">${data.summary}</p>
+                                        <p class="slim-content-text">${data.summary}</p>
                                     </div>
                                 </div>
                             </div>

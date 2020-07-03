@@ -37,6 +37,12 @@ body {
     font-size: 16px;
 }
 
+.slim-content-text{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
 .footer-heading{
     font-family: "Cinzel", serif;
     font-weight: 700;
