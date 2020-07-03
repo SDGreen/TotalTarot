@@ -213,6 +213,10 @@ color:#F7EACA;
     background-color: #F9C7D1;
 }
 
+#map-info a:hover{
+    color: #B1871B;
+}
+
 #map-info.dark-mode{
     background-color: #21243D;
 }
@@ -560,6 +564,10 @@ nav .navbar-toggler{
 #map {
     height: 50vh;
     width: 90vw;
+}
+
+#map-info a{
+    transition: 200ms;
 }
 
 #map-data-target{

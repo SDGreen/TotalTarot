@@ -170,7 +170,7 @@ function initMap(){
                     </div>
                 </div>
                 
-                <p class="content-text text-center">Or learn online with our free <a href="../../deck.html">Tarot Card Library</a></p>
+                <p class="content-text text-center">Or learn online with our free <a href="deck.html">Tarot Card Library</a></p>
                 <div>`
                 map.setCenter(this.position);
                 map.setZoom(10);
