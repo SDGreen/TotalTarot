@@ -22,66 +22,66 @@ Over all Total Tarot aims to be an educational site with no pay-walls. Once the 
 Total Tarot's design is aimed to look sleek and simple to make navigation as easy as possible.
 Competitor websites they tend fall into two categories: 
 1. Course advertisements that look good but provide little information
-2. Free website with good information that looked terrible & are hard to navigate
+2. Free websites with good information that looked terrible & were hard to navigate
 As Total Tarot will straddle between these two worlds, I want to combine the refined and easy handling of a paid for course website with the good information of a free website.
-This way it can stand out in the free market and draw a large crowd which can be directed to affilated websites for users who want to continue their learning.
+This way it can stand out in the free market and draw a large crowd which can be directed to affiliated websites for users who want to continue their learning.
 
-As Total Tarot will be catering to a niche market with varying levels of IT skills it needs to be easy to navigate and understand. This means it follows a very standard website layout with a Navbar across the top with easily accessible links to each page, a simple hub and spoke model. Each page (other than the card library) is designed to be as small and easy to read as possible, only providing as much information as neccessary to learn whilst keeping everything nice and clear. Large pictures are included to keep the users engaged without overcrowding the page as was seen on other free websites.
+As Total Tarot will be catering to a niche market with varying levels of IT skills it needs to be easy to navigate and understand. This means it follows a very standard website layout with a Navbar across the top with easily accessible links to each page, a simple hub and spoke model. Each page (other than the card library) is designed to be as small and easy to read as possible, only providing as much information as necessary to learn whilst keeping everything nice and clear. Large pictures are included to keep the users engaged without overcrowding the page as was seen on other free websites.
 
-User research on what and how they woud like to learn from a website about Tarot cards came up with three clear goals:
+User research on what and how they would like to learn from a website about Tarot cards came up with three clear goals:
 1. An almost "Amazon" like view of all the Tarot cards where you could click each one to find their meaning.
 2. Information about where they could go to get do workshops/classes displayed on a map for easy use.
 3. Information about how to place the cards to do readings, many people know the cards have meanings but don't know where to go from there.
 
-This reseach lead most of the design for the webpages, the classes page has a clickable map displaying all the Total Tarot approved classes in the UK. Clicking on your closest mentor brings up more information about how to book a class, keeping the information hidden until needed to maintain a clean website.
-The page dedicated to learning about the cards has become a visual library where you can scroll through all 78 cards and click each one to find more infomation. To keep this easily digestable the information is concise and easy to view and hide once the user wants to learn about a new card. There is also a search function to easily find a card and a back to top button to keep the page simple to navigate.
-The final page again has a lot of information about how to interpret cards without becoming messy. Key information about how interpreting is done appears before practical placment of cards so it has to be read first, all other information is sig-posted but collapsed. Once a viewer wants to learn more about layouts they can bring up that information but it will hide itself once the user clicks on a new layout to learn. This helps maintain a clean and sleek look whilst having quite a lot of information on the page.
+This research lead most of the design for the web pages, the classes page has a clickable map displaying all the Total Tarot approved classes in the UK. Clicking on your closest mentor brings up more information about how to book a class, keeping the information hidden until needed to maintain a clean website.
+The page dedicated to learning about the cards has become a visual library where you can scroll through all 78 cards and click each one to find more information. To keep this easily digestible the information is concise and easy to view and hide once the user wants to learn about a new card. There is also a search function to easily find a card and a back to top button to keep the page simple to navigate.
+The final page again has a lot of information about how to interpret cards without becoming messy. Key information about how interpreting is done appears before practical placement of cards so it has to be read first, all other information is signposted but collapsed. Once a viewer wants to learn more about layouts they can bring up that information but it will hide itself once the user clicks on a new layout to learn. This helps maintain a clean and sleek look whilst having quite a lot of information on the page.
 
-To help the bussiness goal of growing a large following each page has links to social accounts (currently not online) so no matter where you are on the site, it's easy to follow Total Tarot's social media streams.
+To help the business goal of growing a large following each page has links to social accounts (currently not online) so no matter where you are on the site, it's easy to follow Total Tarot's social media streams.
 As this site wants to make learning as easy as possible it also includes a dark mode feature so users don't strain their eyes whilst using the site.
 
 ### Target Demographic
-The target demographic for this website is people interested in Tarot reading which is predominatly a female market [Medium statistic](https://www.alittlesparkofjoy.com/tarot-statistics-psychic-infographics/) Spanning all ages.
+The target demographic for this website is people interested in Tarot reading which is predominantly a female market [Medium statistic](https://www.alittlesparkofjoy.com/tarot-statistics-psychic-infographics/) Spanning all ages.
 With this in mind the site still has to be somewhat gender neutral so the palette is based on the colours typically found on tarot cards, Grey/Black, Gold, Burgundy, Navy and White.
-The Dark Mode uses mostly gem tones of Gold, Burgundy and Navy whilst the light mode uses the same colours just much lighter versions of each tone. To maintain consistancy the reverse palette colours are used for text colours in each mode.
+The Dark Mode uses mostly gem tones of Gold, Burgundy and Navy whilst the light mode uses the same colours just much lighter versions of each tone. To maintain consistency the reverse palette colours are used for text colours in each mode.
 
 As people interested in tarot can be any age the site aims to be easy to navigate so you don't need a strong literacy in computers. Interactive elements (like the clickable map targets) clearly signpost how to interact with them and where the information will appear.
 
 ### User Stories
 To help focus the design of to Total Tarot's website user stories were created which point to key features or layouts.
-* As a user, I want to find out more about tarot cards so I can start using my own deck.
-* As a user, I want an online deck so I don't have to buy my own to view the cards.
-* As a user, I want to learn how to place my cards so I can start doing my own readings.
-* As a user, I want to easily find out where my closest classes are so I can book a class and learn more.
-* As a user, I want to view the cards easily so I can browse throught the cards.
-* As the owner, I want links to social accounts so I can grow our followers.
+* As a user, I want to find out more about tarot cards, so I can start using my own deck.
+* As a user, I want an online deck, so I don't have to buy my own to view the cards.
+* As a user, I want to learn how to place my cards, so I can start doing my own readings.
+* As a user, I want to easily find out where my closest classes are, so I can book a class and learn more.
+* As a user, I want to view the cards easily, so I can browse through the cards.
+* As the owner, I want links to social accounts, so I can grow our followers.
 * As the owner, I want a clean website so users aren't put off and go elsewhere.
 * As the owner, I want the information to be interactive so users are hooked and stay on the site.
-* As the owner, I want users to be easily directed to affilated sites so we can get a comisson of revenue.
-* As the owner, I don't want too much information avaliable so viewers want to get classes.
+* As the owner, I want users to be easily directed to affiliated sites, so we can get a commission from them.
+* As the owner, I don't want too much information available so viewers want to get classes.
 
 ### Wireframes
-As the wireframes for both the mobile and desktop version are ver similar, only the mobile versions have been provided with any differences described within that page.
-Wireframes for the mobile version of the site can be found [Here](https://github.com/SDGreen/TotalTarot/blob/master/assets/wireframes/total-tarot-wireframes.pdf)
+As the wireframes for both the mobile and desktop version are very similar, only the mobile versions have been provided with any differences described within that page.
+Wireframes for the mobile version of the site can be found [here](https://github.com/SDGreen/TotalTarot/blob/master/wireframes/total-tarot-wireframes.pdf)
 
 ## Features
 ### Existing Features
 * #### Responsive Navbar: 
-    This simple feauture keeps the the navbar from taking too much space on smaller devices. The webiste aims to keeps information at the forfront and this feature keeps the navbar small yet useful.
+    This simple feature keeps the navbar from taking too much space on smaller devices. The website aims to keep information at the forefront and this feature keeps the navbar small yet useful.
 * #### Two responsive dark/light mode buttons, along one Navbar link on smaller devices:
-    The dark/light mode button all react once hovered on to demonstrate something will happen. two signpost also what the button will do so less able users will understand what is happening. Once clicked the button dynamically changed the page to which ever mode is not on to make viewing easier.
+    The dark/light mode button all react once hovered on to demonstrate something will happen. Once clicked the button dynamically changes the page's colour palette to which the other mode to make viewing easier.
 * #### Call to action Jumbotron:
     This quickly overviews the site and easily informs the viewer about the Total Tarot. It is also responsive so smaller devices aren't over crowded with excess information.
 * #### Responsive page summaries:
-    These sections make it easy for the view to navigate to the page which is most useful for them by including in anchors to the relavant page. The images are also responsive so they don't crowd smaller devices.
+    These sections make it easy for the view to navigate to the page which is most useful for them by including in anchors to the relevant page. The images are responsive so they don't crowd smaller devices.
 * #### Dynamic links:
     All links have a hover colour transition so viewers are aware something will happen if they are clicked. The links are also coloured to maintain brand image rather than going to the standard blue.
 * #### Social links on every page within footer:
-    Each page has social links within the footer, this helps maintain the bussiness goal of growing followers without taking up too much real-estate.
+    Each page has social links within the footer, this helps maintain the business goal of growing followers without taking up too much real-estate.
 * #### Responsive Copy:
     The Home and Find Classes page both have responsive copy to keep the page from getting cluttered on smaller devices.
 * #### Interactive Map:
-    This feature has a map using the [Google Maps JS API](https://developers.google.com/maps/documentation/javascript/tutorial) with custom markers displaying all the Total Tarot approved teachers in the UK. This helps users find the closest class to them. Once a map icon is clicked, information about how to book a class and links to the mentors website appear below the map. This keeps informaiton hidden until needed so the website is clutter free and useful. The map will also zoom in on the location selected so viewers will get a better idea on where the place is located. If a new location is picked the information is cleared and updated for the new location. This prevents the page from getting cluttered and stays navigable for the user. The interactions are clearly sign-posted above the map so less computer literate users will know how to use this feature.
+    This feature has a map using the [Google Maps JS API](https://developers.google.com/maps/documentation/javascript/tutorial) with custom markers displaying all the Total Tarot approved teachers in the UK. This helps users find the closest class to them. Once a map icon is clicked, information about how to book a class and links to the mentors' website appear below the map. This keeps information hidden until needed so the website is clutter free and useful. The map will also zoom in on the location selected so viewers will get a better idea on where the place is located. If a new location is picked the information is cleared and updated for the new location. This prevents the page from getting cluttered and stays navigable for the user. The interactions are clearly sign-posted above the map so less computer-literate users will know how to use this feature.
 * #### Interactive Tarot Card Deck:
     This displays all 78 tarot cards on the page for the user to browse through (like an Amazon shopping page). All information related to the card (front image, meaning) is supplied from [howlCode's](https://github.com/howlCode/tarot_api) Tarot Api, if there is an issue getting this information an error message will appear instead. Once the cards are displayed by the generate-deck.js script they are clickable. Once clicked the card will flip to display the card image and a section will appear informing the user about it's meaning. This keep the information fun as each opportunity to learn is interactive. If a new card is click then another call is placed to the API and the original card will hide it's information and flip over to the back face so keep the site clutter free and prevent information overload on the user.  
 * #### Search Dropdown:
@@ -97,23 +97,23 @@ Wireframes for the mobile version of the site can be found [Here](https://github
 * #### Social Media link functionality:
     Once Total Tarot exists on Twitter, Facebook and Instagram these links would direct the user to these external pages (via a new tab).
 * #### Practice Reading Page:
-    With more time a new page where users can practice reading would be avaliable. The page would include a clickable deck which randomly lays three cards to be flipped an interpreted.
+    With more time, a new page where users can practice reading would be created. This page would include a clickable deck which randomly lays three cards to be flipped and interpreted.
 * #### Buying page for Tarot Decks
     Once ready a shop-front will be added where users can buy their first deck to practice with.
 * #### Expanded Mentors Map
-    When avaliable, mentors from across the globe will be added to the map API
+    When available, mentors from across the globe will be added to the map API
 
 ## Technologies Used
 * [HTML5](https://html.spec.whatwg.org/multipage/) - To create the structure of the page.
 * [CSS3](https://www.w3.org/Style/CSS/Overview.en.html) - Used to style the website.
 * [Bootstrap v4.5.0](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - This framework was used to create a responsive mobile-first design along with some components such as the navbar and accordion.
-* [JavaScript](https://www.javascript.com/) - Inculded with Bootstrap libraries to give components functionality, also used to code dark-mode.js and classes-map.js.
-* [jQuery](https://jquery.com/) - Included with Bootstrap, also used to code find-cars.js, show-card-details.js and generate-deck.js (along with some vanilla javascript)
+* [JavaScript](https://www.javascript.com/) - Included with Bootstrap libraries to give components functionality, also used to code dark-mode.js and classes-map.js.
+* [jQuery](https://jquery.com/) - Included with Bootstrap, also used to code find-cars.js, show-card-details.js and generate-deck.js (along with some vanilla JavaScript)
 * [Git](https://git-scm.com/) - Used for version control and tracking changes to the code whilst in development.
 * [GitHub Pages](https://pages.github.com/) - Used to deploy the website.
 * [Google Fonts](https://fonts.google.com/) - Used for website fonts [Cinzel](https://fonts.google.com/specimen/cinzel) for headings and [Montserrat](https://fonts.google.com/specimen/Montserrat) for content text.
 * [Font Awesome](https://fo*ntawesome.com/) - This library provided the Icons used across the site.
-* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Key for testing respon
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Key for testing responsive design.
 * [Autoprefixer](https://autoprefixer.github.io/) - Used to prefix the css file so that transitions would work across different browsers
 
 ## Testing
@@ -122,7 +122,7 @@ To ensure this was the case these features were checked to sure the following in
 
 * #### Navigation Bar
     * When hovered over, the list anchors all underline.
-    * When hovered over, The dark/light mode button transitions to it's oppisite picture.
+    * When hovered over, The dark/light mode button transitions to it's opposite picture.
     * The active page is highlighted by a different colour.
     * The Navbar collapses once small enough so the page links and mode button is hidden in a dropdown.
 
@@ -141,7 +141,7 @@ To ensure this was the case these features were checked to sure the following in
     * The map generates markers for all mentor locations.
     * The markers are Total Tarots icons.
     * Once clicked the relevant information appears beneath the map.
-    * Once clicked the map zooms in on the markers location.
+    * Once clicked the map zooms in on the marker's location.
     * When a new marker is clicked, any other information is cleared.
     * The map size changes depending on the device viewport.
 
@@ -154,19 +154,19 @@ To ensure this was the case these features were checked to sure the following in
 
 * #### Card Search function
     * All 78 card names are populated by the API.
-    * Once a card is selected an the button clicked, the page smooth scrolls to the relevant card.
+    * Once a card is selected and the button clicked, the page smooth scrolls to the relevant card.
     * The selected card opens to reveal it's image and information.
 
 * #### Back-To-Top Button
     * The button appears after the user scrolls 30px down.
     * The button once clicked instantly takes you back to the top of the page.
-    * When hovered the button turns gold.
+    * When in a hover state, the button turns gold.
 
 * #### Learn to Interpret Page
     * The card dealing image changes size to fit different devices.
     * The accordion opens to reveal information about each layout.
     * The current accordion page closes once a new layout page is clicked.
-    * The accordoin content changes depending on the size of the device.
+    * The accordion content changes depending on the size of the device.
 
 ### Responsive Design Testing
 The responsive design was tested using multiple physical devices:
@@ -215,28 +215,28 @@ One note is that on FireFox the font Cinzel loads slightly differently (more elo
 * There is an online deck which is one click away from the homepage and clearly signposted.
 
 #### As a user, I want to learn how to place my cards so I can start doing my own readings.
-* There is apage dedicated to spreads with three starter layouts clearly explained.
+* There is a page dedicated to spreads with three starter layouts clearly explained.
 
 #### As a user, I want to easily find out where my closest classes are so I can book a class and learn more.
 * The map page has a UK-wide map showing 14 approved mentors across the UK and Ireland.
 
-#### As a user, I want to view the cards easily so I can browse throught the cards.
+#### As a user, I want to view the cards easily so I can browse through the cards.
 * The cards are displayed so that everyone is viewable and can easily be searched.
 
 #### As the owner, I want links to social accounts so I can grow our followers.
 * Every page has links to future social accounts once created.
 
 #### As the owner, I want a clean website so users aren't put off and go elsewhere.
-* Every page only shows the amount of information neccessary which can be explanded upon. Less useful information is removed on smaller devices to preserve a clean and simple website.
+* Every page only shows the amount of information neccessary which can be expanded upon. Less useful information is removed on smaller devices to preserve a clean and simple website.
 
 #### As the owner, I want the information to be interactive so users are hooked and stay on the site.
-* Pages have images or interactive maps. Many informational elements response to user inputs or breakpoints too keep it engaging.
+* Pages have images or interactive maps. Many informational elements respond to user inputs or breakpoints too keep it engaging.
 
-#### As the owner, I want users to be easily directed to affilated sites so we can get a comisson of revenue.
-* The relevant information for tutors is clearly signposted, two clicks away from the homepage and pertanate to the user.
+#### As the owner, I want users to be easily directed to affilated sites, so we can get a commission of revenue.
+* The relevant information for tutors is clearly signposted, two clicks away from the homepage and pertinent to the user.
 
-#### As the owner, I don't want too much information avaliable so viewers want to get classes.
-* Most information is only viewable when clicked, once a viewer moves on to new information pervious pop-ups are closed.
+#### As the owner, I don't want too much information available so viewers want to get classes.
+* Most information is only viewable when clicked, once a viewer moves on to new information previous pop-ups are closed.
 
 ### Bugs
 With any project bugs will arise, below is a brief summary most site-breaking issues:
@@ -248,7 +248,7 @@ With any project bugs will arise, below is a brief summary most site-breaking is
 * #### Map markers wouldn't load the custom Total Tarot markers
     This bug due to the file paths in the classes-map.js file. The relative paths were based on the JS file location and not the page location. This was changed and now the icons load.
 * #### Map Markers would only load the last populated marker information regardless of which marker was clicked.
-    This bug arose because the code creating the onclick listeners which rendered the information for each location for the markers was outside the for loop creating the them. This meant that regardless of the marker, the onclick event would only render the last marker's information as they all share the same variable name. To fix this the function creating the listener was moved inside the loop so when a marker was created the listener got the correct location information.
+    This bug arose because the code creating the onclick listeners which rendered the information for each location for the markers was outside the for loop creating them. This meant that regardless of the marker, the onclick event would only render the last marker's information as they all share the same variable name. To fix this the function creating the listener was moved inside the loop so when a marker was created the listener got the correct location information.
 * #### The light mode version of the website would load when a new page was clicked
     As the light-mode is the default version of the site, whenever a new page was click it would load in light mode. To solved this the current mode was cached in the browsers local storage for the script to check before it loads a new page.
 * #### The Accordion content split out over it's container
@@ -256,7 +256,7 @@ With any project bugs will arise, below is a brief summary most site-breaking is
 
     
 ## Deployment
-Total Tarot's Website was coded using a the GitPod IDE. The git repository is stored loacally before being pushed online to the remote repository online at GitHub.
+Total Tarot's Website was coded using the GitPod IDE. The git repository is stored loacally before being pushed online to the remote repository online at GitHub.
 To push the code to the remote repository you follow these steps.
 1. Save any local changes made in the GitPod IDE by pressing File -> Save All (or Ctrl+Shift+S).
 2. Add these changes to the git staging area by using the ```git add .``` command in a terminal.
