@@ -207,6 +207,7 @@ One note is that on FireFox the font Cinzel loads slightly differently (more elo
 ### Code Validation
 * HTML5 code validated using [https://validator.w3.org/](https://validator.w3.org/)
 * CSS3 code validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
+* JS code validated using [https://jshint.com/](https://jshint.com/)
 ### User Stories tested
 #### As a user, I want to find out more about tarot cards, so I can start using my own deck.
 * The card library is easy to navigate to and provides clear information on each card.

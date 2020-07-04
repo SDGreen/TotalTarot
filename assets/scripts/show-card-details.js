@@ -6,11 +6,11 @@ function showCardInfo(id){
     if (localStorage.mode === "light-mode"){
         mode = "dark-mode";
     } else {
-        mode = "light-mode"
+        mode = "light-mode";
     }
 
     /* checks the card hasn't already been flipped */   
-    let currentCardMode = $(`#${cardId} .card-name`).css("display")
+    let currentCardMode = $(`#${cardId} .card-name`).css("display");
     if (currentCardMode === "none"){
         return;
     } else {
@@ -20,7 +20,7 @@ function showCardInfo(id){
         $("#deck").find(".flipped").removeClass("flipped");
         $("#deck").find(".card-info").slideUp().removeClass("shown light-mode dark-mode");
         $(`#${cardId} .card-name`).fadeOut();
-        $(`#${cardId} .card-info`).addClass(`shown ${mode}`).slideDown()
+        $(`#${cardId} .card-info`).addClass(`shown ${mode}`).slideDown();
 
         $.when(
             $.getJSON("https://tarot.howlcode.com/api/v1/cards/" + cardId)
@@ -36,7 +36,7 @@ function showCardInfo(id){
                     console.log(errorResponse);
                     $("#deck").html(
                         `<h2 class="content-text">Error: ${errorResponse.responseJSON.message}</h2>`);
-                        console.log(errorResponse.responseJSON)
+                        console.log(errorResponse.responseJSON);
                 }
         });
 
@@ -45,7 +45,7 @@ function showCardInfo(id){
         }
 
         function cardFlip(cardData){
-            let backgroundImage = {"background": `url(${cardData.image}) no-repeat center/contain`}
+            let backgroundImage = {"background": `url(${cardData.image}) no-repeat center/contain`};
             $(`#${cardId} .card-back`).css(backgroundImage);
             $(`#${cardId} .card-inner`).addClass("flipped");
         }
@@ -82,10 +82,9 @@ function showCardInfo(id){
                                         </div>
                                     </div>
                                 </div>
-                            </div>`
+                            </div>`;
             callbackTwo(data);
             callbackOne(cardData);
         }
     }
-
-};
+}

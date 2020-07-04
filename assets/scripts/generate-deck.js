@@ -14,7 +14,7 @@ $(document).ready(function(){
                 console.log(errorResponse);
                 $("#deck").html(
                     `<h2>Error: ${errorResponse.responseJSON.message}</h2>`);
-                    console.log(errorResponse.responseJSON)
+                    console.log(errorResponse.responseJSON);
             }
     });
 
@@ -50,12 +50,12 @@ $(document).ready(function(){
                                     </div>
                                 </div>
                             </div>
-                        </div>`
-            let searchName = `<option value="${cardId}">${cardName}</option>`
+                        </div>`;
+            let searchName = `<option value="${cardId}">${cardName}</option>`;
 
             $("#deck").append(card);
             $("select").append(searchName);
-        };
+        }
     }
 
 

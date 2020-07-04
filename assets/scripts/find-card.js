@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     /* code for search bar */
     $("#cardBtn").click(function(){
-        let elementId = $("select").val()
+        let elementId = $("select").val();
         showCardInfo(elementId);
         let element = document.getElementById(elementId);
         element.scrollIntoView({behavior: "smooth", block: "end"});
@@ -14,7 +14,7 @@ $(document).ready(function(){
 
     function scrollFunction() {
         if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-            $("#back-to-top").fadeIn().css("display", "block")
+            $("#back-to-top").fadeIn().css("display", "block");
         } else {
             $("#back-to-top").fadeOut();
         }

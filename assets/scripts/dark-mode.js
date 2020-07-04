@@ -2,7 +2,7 @@
     if(!localStorage.mode){
         localStorage.setItem("mode", "light-mode");
     } else {
-        darkMode(localStorage.mode)
+        darkMode(localStorage.mode);
     }
 
 /*code for the main buttons*/
@@ -20,12 +20,12 @@ function darkMode(mode){
         for (element of lightElements){
             element.classList.add("dark-mode");
             element.classList.remove("light-mode");
-        };
+        }
             modeButton.outerHTML = `<div id="mode-button" onclick="darkMode('dark-mode')" class="nav-item dark-mode d-none d-sm-inline-block"></div>`;
             navModeButton.outerHTML = `<li id="mode-collapse-button" onclick="darkMode('dark-mode')" class="nav-item d-sm-none"><a class="nav-link">Light Mode</a></li>`;
-            footerModeButton.outerHTML = `<div id="footer-mode-button" onclick="darkMode('dark-mode')" class="dark-mode">`
-            currentModeLabel.innerText = "dark mode"
-            localStorage.mode = "light-mode"
+            footerModeButton.outerHTML = `<div id="footer-mode-button" onclick="darkMode('dark-mode')" class="dark-mode">`;
+            currentModeLabel.innerText = "dark mode";
+            localStorage.mode = "light-mode";
     } else {
 
         let darkElements = [].slice.call(document.getElementsByClassName("dark-mode"));
@@ -37,8 +37,8 @@ function darkMode(mode){
         
         modeButton.outerHTML = `<div id="mode-button" onclick="darkMode('light-mode')" class="nav-item light-mode d-none d-sm-inline-block"></div>`;
         navModeButton.outerHTML = `<li id="mode-collapse-button" onclick="darkMode('light-mode')" class="nav-item d-sm-none"><a class="nav-link">Dark Mode</a></li>`;
-        footerModeButton.outerHTML = `<div id="footer-mode-button" onclick="darkMode('light-mode')" class="light-mode">`
-        currentModeLabel.innerText = "light mode"
-        localStorage.mode = "dark-mode"
+        footerModeButton.outerHTML = `<div id="footer-mode-button" onclick="darkMode('light-mode')" class="light-mode">`;
+        currentModeLabel.innerText = "light mode";
+        localStorage.mode = "dark-mode";
     }
 }
