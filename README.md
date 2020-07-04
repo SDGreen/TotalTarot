@@ -93,8 +93,15 @@ Wireframes for the mobile versions of the site can be found [Here](https://githu
     A simple image to keep the user engaged on this page. The first section is text heavy so it was important to add an interesting image first. The colour wrapper changes depending on which mode is selected and the size is responsive so the image looks good on all devices.
 * #### Interactive Accordion:
     This Bootstrap accordion keeps information on layouts hidden until a viewer wants to learn more. If clicked the information about the relevant spread is revealed and hides any other open accordion pages. This keeps the information nicely laid out so the page isn't cluttered whilst still being informative.
-    
+
 ### Features Left to Implement
+* #### Social Media link functionality:
+    Once Total Tarot exists on Twitter, Facebook and Instagram these links would direct the user to these external pages (via a new tab).
+* #### Practice Reading Page:
+    With more time a new page where users can practice reading would be avaliable. The page would include a clickable deck which randomly lays three cards to be flipped an interpreted.
+* #### Buying page for Tarot Decks
+    Once ready a shop-front will be added where users can buy their first deck to practice with.
+
 ## Technologies Used
 * [HTML5](https://html.spec.whatwg.org/multipage/) - To create the structure of the page.
 * [CSS3](https://www.w3.org/Style/CSS/Overview.en.html) - Used to style the website.
@@ -109,14 +116,118 @@ Wireframes for the mobile versions of the site can be found [Here](https://githu
 * [Autoprefixer](https://autoprefixer.github.io/) - Used to prefix the css file so that transitions would work across different browsers
 
 ## Testing
+As Total Tarot has quite a few interactive elements, I wanted to test these on multiple devices to make sure they worked correctly.
+To ensure this was the case these features were checked to sure the following interactions happened:
+
+* #### Navigation Bar
+    * When hovered over, the list anchors all underline.
+    * When hovered over, The dark/light mode button transitions to it's oppisite picture.
+    * The active page is highlighted by a different colour.
+    * The Navbar collapses once small enough so the page links and mode button is hidden in a dropdown.
+
+* #### Dark/Light Mode functionality
+    * When clicked, all relevant coloured elements change to the correct colour.
+    * The collapsed Navbar button and text in the footer swap to the opposite mode once clicked.
+    * When a new page or the site is reloaded, the same mode is on from the last page you visited.
+    * Elements generated from JavaScript (i.e. the card info boxes in the online deck) also load with the correct colouring.
+
+* #### Home Page
+    * The images in each summary section change to icons once the small breakpoint is highlighted.
+    * The copy reduces once the small breakpoint is hit.
+
+* #### Map functionality
+    * The map loads over the UK.
+    * The map generates markers for all mentor locations.
+    * The markers are Total Tarots icons.
+    * Once clicked the relevant information appears beneath the map.
+    * Once clicked the map zooms in on the markers location.
+    * When a new marker is clicked, any other information is cleared.
+    * The map size changes depending on the device viewport.
+
+* #### Online Card Library
+    * All 78 cards load.
+    * If the API gets an error response, an error message is displayed and the issue logged to the console.
+    * The card flips once clicked, a box loads beneath showing the user the card information.
+    * When a card flips, the relevant image is called from the API.
+    * If a new card is clicked, any open cards flip back and their information is hidden.
+
+* #### Card Search function
+    * All 78 card names are populated by the API.
+    * Once a card is selected an the button clicked, the page smooth scrolls to the relevant card.
+    * The selected card opens to reveal it's image and information.
+
+* #### Back-To-Top Button
+    * The button appears after the user scrolls 30px down.
+    * The button once clicked instantly takes you back to the top of the page.
+    * When hovered the button turns gold.
+
+* #### Learn to Interpret Page
+    * The card dealing image changes size to fit different devices.
+    * The accordion opens to reveal information about each layout.
+    * The current accordion page closes once a new layout page is clicked.
+    * The accordoin content changes depending on the size of the device.
+
 ### Responsive Design Testing
+The responsive design was tested using multiple physical devices:
+* Galaxy S8 (Chrome)
+* iPhone 6 plus (Safari)
+* iPad Air 2 (Safari)
+* Leveno IdeaPad S340 (Chrome)
+* MacBook (Chrome & Safari)
+* iPhone X (Safari)
+
+Chrome DevTools was also used to test the design on the following devices:
+* Moto G4
+* Galaxy S5
+* Pixel 2
+* Pixel 2 XL
+* iPhone 5/SE
+* iPhone 6/7/8
+* iPhone 6/7/8 Plus
+* iPhone X
+* iPad 
+* iPad Pro
+
+[Responsinator] was also used to check the resposive design:
+* [Home page](http://www.responsinator.com/?url=sdgreen.github.io%2FTotalTarot%2F)
+* [Find Classes page](http://www.responsinator.com/?url=sdgreen.github.io%2FTotalTarot%2Fclasses)
+* [Online Card Library page](http://www.responsinator.com/?url=https%3A%2F%2Fsdgreen.github.io%2FTotalTarot%2Fdeck.html)
+* [Learn to Interpret page](http://www.responsinator.com/?url=sdgreen.github.io%2FTotalTarot%2Fhow-to)
+
 ### Browser testing
-#### On Lenovo IdeaPad S340
-#### On MacBook problem
+Total Tarot's website was physically tested on the following browsers:
+* Microsoft Edge Version 83.0.478.58 
+* Chrome Version 83.0.4103.116 
+* Firefox version 74.0.1 
+* Safari version 13.0.5 (15608.5.11)
+
+One note is that on FireFox the font Cinzel loads slightly differently (more elongated) but this was not considered a bug.
+
 ### Code Validation
 * HTML5 code validated using [https://validator.w3.org/](https://validator.w3.org/)
 * CSS3 code validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 ### User Stories tested
+#### As a user, I want to find out more about tarot cards so I can start using my own deck.
+    * 
+#### As a user, I want an online deck so I don't have to buy my own to view the cards.
+    *
+#### As a user, I want to learn how to place my cards so I can start doing my own readings.
+    *
+#### As a user, I want to easily find out where my closest classes are so I can book a class and learn more.
+    *
+#### As a user, I want to view the cards easily so I can browse throught the cards.
+    *
+#### As the owner, I want links to social accounts so I can grow our followers.
+    *
+#### As the owner, I want a clean website so users aren't put off and go elsewhere.
+    *
+#### As the owner, I want the information to be interactive so users are hooked and stay on the site.
+    *
+#### As the owner, I want users to be easily directed to affilated sites so we can get a comisson of revenue.
+    *
+#### As the owner, I don't want too much information avaliable so viewers want to get classes.
+    *
+
 ## Deployment
 Total Tarot's Website was coded using a the GitPod IDE. The git repository is stored loacally before being pushed online to the remote repository online at GitHub.
 To push the code to the remote repository you follow these steps.
@@ -176,3 +287,8 @@ Images created from edited assets:
 Information and research from [Biddy Tarot](https://www.biddytarot.com/) was crucial to keep the website factual
 
 ## Code 
+* Responsive landscape breakpoints taken from [Responsivedesign.is](https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/)
+* CSS prefixer used: [https://autoprefixer.github.io/](https://autoprefixer.github.io/)
+* [Google Maps JS API](https://developers.google.com/maps/documentation/javascript/tutorial)
+* Tarot card information from [howlCode](https://github.com/howlCode/tarot_api)
+* CSS underline taken from [Stack Overflow](https://stackoverflow.com/questions/30352431/css-transition-not-working-with-underline)
