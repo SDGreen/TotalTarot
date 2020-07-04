@@ -290,23 +290,23 @@ Copyright free images taken from [Need Pix](https://www.needpix.com/):
 * [Cards being dealt](https://www.needpix.com/photo/909476/playing-cards-cards-player-distribute) (file name: dealing-cards.jpg)
 
 Copyright free images taken from [Pxhere](https://pxhere.com/)
-*[Book](https://pxhere.com/en/photo/498594) (file name: book.jpg)
+* [Book](https://pxhere.com/en/photo/498594) (file name: book.jpg)
 
 Copyright free images taken from [Pexels](https://www.pexels.com)
-*[Tarot Spread](https://www.pexels.com/photo/assorted-tarot-cards-on-table-3088369/) (file name: tarot-spread.jpg)
+* [Tarot Spread](https://www.pexels.com/photo/assorted-tarot-cards-on-table-3088369/) (file name: tarot-spread.jpg)
 
-Copyright free images taken from [Wikipedia Commons])(https://commons.wikimedia.org/wiki/Main_Page)
-*[Card Back](https://commons.wikimedia.org/wiki/File:Russian_style_card_back.jpg) (file name: card-back.jpg)
-*[Simple Spread](https://commons.wikimedia.org/wiki/File:Three_card_reading_1.svg) (file name: simple-spread.png)
-*[Crossed Spread](https://commons.wikimedia.org/wiki/File:Three_card_reading_2.svg) (file name:cross-spread.png)
-*[Celtic Cross](https://commons.wikimedia.org/wiki/File:Keltisch_Kruis.svg) (file name: celtic-cross.png)
+Copyright free images taken from [Wikipedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
+* [Card Back](https://commons.wikimedia.org/wiki/File:Russian_style_card_back.jpg) (file name: card-back.jpg)
+* [Simple Spread](https://commons.wikimedia.org/wiki/File:Three_card_reading_1.svg) (file name: simple-spread.png)
+* [Crossed Spread](https://commons.wikimedia.org/wiki/File:Three_card_reading_2.svg) (file name:cross-spread.png)
+* [Celtic Cross](https://commons.wikimedia.org/wiki/File:Keltisch_Kruis.svg) (file name: celtic-cross.png)
 
 Logos created using [FreeLogoDesign](https://www.freelogodesign.org/):
 * [Total Tarot Logo](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/logo-light.png) (file name: logo-light.png)
 * [Dark Total Tarot Logo](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/logo-dark.png) (file name: logo-dark.png)
 
 Favicon created using [Favicon.io](https://favicon.io/favicon-converter/) from edited logo:
-*[Favicon](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/favicon.png) (file name: favicon.png)
+* [Favicon](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/favicon.png) (file name: favicon.png)
 
 Images created from edited assets:
 * [Map Marker](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/map-marker-final.png) (file name: map-marker-final.png)
