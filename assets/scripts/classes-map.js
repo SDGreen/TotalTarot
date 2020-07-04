@@ -131,7 +131,7 @@ function initMap(){
                 address: "1 Woodend Cottages, Thornthwaite, Keswick CA12 4NT",
             },
         }
-    ]
+    ];
 
     for (var i = 0; i < classes.length; ++i){
             var marker = new google.maps.Marker({
@@ -171,7 +171,7 @@ function initMap(){
                 </div>
                 
                 <p class="content-text text-center">Or learn online with our free <a href="deck.html">Tarot Card Library</a></p>
-                <div>`
+                <div>`;
                 map.setCenter(this.position);
                 map.setZoom(10);
 
@@ -179,4 +179,3 @@ function initMap(){
     }
 
 }
-
