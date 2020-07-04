@@ -210,34 +210,34 @@ One note is that on FireFox the font Cinzel loads slightly differently (more elo
 * CSS3 code validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 ### User Stories tested
 #### As a user, I want to find out more about tarot cards so I can start using my own deck.
-    * The card library is easy to navigate to and provide clear information on each card.
+* The card library is easy to navigate to and provide clear information on each card.
 
 #### As a user, I want an online deck so I don't have to buy my own to view the cards.
-    * There is an online deck which is one click away from the homepage and clearly signposted.
+* There is an online deck which is one click away from the homepage and clearly signposted.
 
 #### As a user, I want to learn how to place my cards so I can start doing my own readings.
-    * There is apage dedicated to spreads with three starter layouts clearly explained.
+* There is apage dedicated to spreads with three starter layouts clearly explained.
 
 #### As a user, I want to easily find out where my closest classes are so I can book a class and learn more.
-    * The map page has a UK-wide map showing 14 approved mentors across the UK and Ireland.
+* The map page has a UK-wide map showing 14 approved mentors across the UK and Ireland.
 
 #### As a user, I want to view the cards easily so I can browse throught the cards.
-    * The cards are displayed so that everyone is viewable and can easily be searched.
+* The cards are displayed so that everyone is viewable and can easily be searched.
 
 #### As the owner, I want links to social accounts so I can grow our followers.
-    * Every page has links to future social accounts once created.
+* Every page has links to future social accounts once created.
 
 #### As the owner, I want a clean website so users aren't put off and go elsewhere.
-    * Every page only shows the amount of information neccessary which can be explanded upon. Less useful information is removed on smaller devices to preserve a clean and simple website.
+* Every page only shows the amount of information neccessary which can be explanded upon. Less useful information is removed on smaller devices to preserve a clean and simple website.
 
 #### As the owner, I want the information to be interactive so users are hooked and stay on the site.
-    * Pages have images or interactive maps. Many informational elements response to user inputs or breakpoints too keep it engaging.
+* Pages have images or interactive maps. Many informational elements response to user inputs or breakpoints too keep it engaging.
 
 #### As the owner, I want users to be easily directed to affilated sites so we can get a comisson of revenue.
-    * The relevant information for tutors is clearly signposted, two clicks away from the homepage and pertanate to the user.
+* The relevant information for tutors is clearly signposted, two clicks away from the homepage and pertanate to the user.
 
 #### As the owner, I don't want too much information avaliable so viewers want to get classes.
-    * Most information is only viewable when clicked, once a viewer moves on to new information pervious pop-ups are closed.
+* Most information is only viewable when clicked, once a viewer moves on to new information pervious pop-ups are closed.
 
 ### Bugs
 With any project bugs will arise, below is a brief summary most site-breaking issues:
@@ -250,9 +250,9 @@ With any project bugs will arise, below is a brief summary most site-breaking is
     This bug due to the file paths in the classes-map.js file. The relative paths were based on the JS file location and not the page location. This was changed and now the icons load.
 * #### Map Markers would only load the last populated marker information regardless of which marker was clicked.
     This bug arose because the code creating the onclick listeners which rendered the information for each location for the markers was outside the for loop creating the them. This meant that regardless of the marker, the onclick event would only render the last marker's information as they all share the same variable name. To fix this the function creating the listener was moved inside the loop so when a marker was created the listener got the correct location information.
-* #### The light mode version of the website would load when a new page was loaded
+* #### The light mode version of the website would load when a new page was clicked
     As the light-mode is the default version of the site, whenever a new page was click it would load in light mode. To solved this the current mode was cached in the browsers local storage for the script to check before it loads a new page.
-* #### The Accordion content spilt out over it's container
+* #### The Accordion content split out over it's container
     Bootstrap's row class adds a negative margin to it's div elements which was interfering with the accordion. This was fixed with some simple CSS changes.
 
     
