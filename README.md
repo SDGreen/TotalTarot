@@ -101,6 +101,8 @@ Wireframes for the mobile versions of the site can be found [Here](https://githu
     With more time a new page where users can practice reading would be avaliable. The page would include a clickable deck which randomly lays three cards to be flipped an interpreted.
 * #### Buying page for Tarot Decks
     Once ready a shop-front will be added where users can buy their first deck to practice with.
+* #### Expanded Mentors Map
+    When avaliable, mentors from across the globe will be added to the map API
 
 ## Technologies Used
 * [HTML5](https://html.spec.whatwg.org/multipage/) - To create the structure of the page.
@@ -208,26 +210,52 @@ One note is that on FireFox the font Cinzel loads slightly differently (more elo
 * CSS3 code validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 ### User Stories tested
 #### As a user, I want to find out more about tarot cards so I can start using my own deck.
-    * 
-#### As a user, I want an online deck so I don't have to buy my own to view the cards.
-    *
-#### As a user, I want to learn how to place my cards so I can start doing my own readings.
-    *
-#### As a user, I want to easily find out where my closest classes are so I can book a class and learn more.
-    *
-#### As a user, I want to view the cards easily so I can browse throught the cards.
-    *
-#### As the owner, I want links to social accounts so I can grow our followers.
-    *
-#### As the owner, I want a clean website so users aren't put off and go elsewhere.
-    *
-#### As the owner, I want the information to be interactive so users are hooked and stay on the site.
-    *
-#### As the owner, I want users to be easily directed to affilated sites so we can get a comisson of revenue.
-    *
-#### As the owner, I don't want too much information avaliable so viewers want to get classes.
-    *
+    * The card library is easy to navigate to and provide clear information on each card.
 
+#### As a user, I want an online deck so I don't have to buy my own to view the cards.
+    * There is an online deck which is one click away from the homepage and clearly signposted.
+
+#### As a user, I want to learn how to place my cards so I can start doing my own readings.
+    * There is apage dedicated to spreads with three starter layouts clearly explained.
+
+#### As a user, I want to easily find out where my closest classes are so I can book a class and learn more.
+    * The map page has a UK-wide map showing 14 approved mentors across the UK and Ireland.
+
+#### As a user, I want to view the cards easily so I can browse throught the cards.
+    * The cards are displayed so that everyone is viewable and can easily be searched.
+
+#### As the owner, I want links to social accounts so I can grow our followers.
+    * Every page has links to future social accounts once created.
+
+#### As the owner, I want a clean website so users aren't put off and go elsewhere.
+    * Every page only shows the amount of information neccessary which can be explanded upon. Less useful information is removed on smaller devices to preserve a clean and simple website.
+
+#### As the owner, I want the information to be interactive so users are hooked and stay on the site.
+    * Pages have images or interactive maps. Many informational elements response to user inputs or breakpoints too keep it engaging.
+
+#### As the owner, I want users to be easily directed to affilated sites so we can get a comisson of revenue.
+    * The relevant information for tutors is clearly signposted, two clicks away from the homepage and pertanate to the user.
+
+#### As the owner, I don't want too much information avaliable so viewers want to get classes.
+    * Most information is only viewable when clicked, once a viewer moves on to new information pervious pop-ups are closed.
+
+### Bugs
+With any project bugs will arise, below is a brief summary most site-breaking issues:
+
+* #### Card images wouldn't load on devices using Safari
+    This bug was due to the CSS file not including the correct prefixes on transitions for browsers other than Chrome. To fix this the Autoprefixer was used to update the CSS stylesheet.
+* #### Card information boxes wouldn't load with the correct dark/light mode colours
+    Because the information boxes are created by JavaScript it was difficult coding the correct styling for dynamic colour changes. To fix this code is added to the show-card-details.js at the beginning which checks the locally cached mode and adds the correct class to the divs displaying the information.
+* #### Map markers wouldn't load the custom Total Tarot markers
+    This bug due to the file paths in the classes-map.js file. The relative paths were based on the JS file location and not the page location. This was changed and now the icons load.
+* #### Map Markers would only load the last populated marker information regardless of which marker was clicked.
+    This bug arose because the code creating the onclick listeners which rendered the information for each location for the markers was outside the for loop creating the them. This meant that regardless of the marker, the onclick event would only render the last marker's information as they all share the same variable name. To fix this the function creating the listener was moved inside the loop so when a marker was created the listener got the correct location information.
+* #### The light mode version of the website would load when a new page was loaded
+    As the light-mode is the default version of the site, whenever a new page was click it would load in light mode. To solved this the current mode was cached in the browsers local storage for the script to check before it loads a new page.
+* #### The Accordion content spilt out over it's container
+    Bootstrap's row class adds a negative margin to it's div elements which was interfering with the accordion. This was fixed with some simple CSS changes.
+
+    
 ## Deployment
 Total Tarot's Website was coded using a the GitPod IDE. The git repository is stored loacally before being pushed online to the remote repository online at GitHub.
 To push the code to the remote repository you follow these steps.
@@ -262,10 +290,10 @@ Copyright free images taken from [Need Pix](https://www.needpix.com/):
 * [Card Reading](https://www.needpix.com/photo/download/1615529/tarot-magician-magic-witch-occult-destiny-mysticism-symbol-fortune) (file name: reading.jpg)
 * [Cards being dealt](https://www.needpix.com/photo/909476/playing-cards-cards-player-distribute) (file name: dealing-cards.jpg)
 
-Copyright free images taken from [Pxhere])(https://pxhere.com/)
+Copyright free images taken from [Pxhere](https://pxhere.com/)
 *[Book](https://pxhere.com/en/photo/498594) (file name: book.jpg)
 
-Copyright free images taken from [Pexels])(https://www.pexels.com)
+Copyright free images taken from [Pexels](https://www.pexels.com)
 *[Tarot Spread](https://www.pexels.com/photo/assorted-tarot-cards-on-table-3088369/) (file name: tarot-spread.jpg)
 
 Copyright free images taken from [Wikipedia Commons])(https://commons.wikimedia.org/wiki/Main_Page)
@@ -284,7 +312,7 @@ Favicon created using [Favicon.io](https://favicon.io/favicon-converter/) from e
 Images created from edited assets:
 * [Map Marker](https://github.com/SDGreen/TotalTarot/tree/master/assets/images/map-marker-final.png) (file name: map-marker-final.png)
 
-Information and research from [Biddy Tarot](https://www.biddytarot.com/) was crucial to keep the website factual
+Information and research from [Biddy Tarot](https://www.biddytarot.com/) was crucial to keep the website factual.
 
 ## Code 
 * Responsive landscape breakpoints taken from [Responsivedesign.is](https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/)
