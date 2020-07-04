@@ -61,9 +61,8 @@ To help focus the design of to Total Tarot's website user stories were created w
 * As the owner, I don't want too much information avaliable so viewers want to get classes.
 
 ### Wireframes
-Wireframes for the laptop versions of the pages can be found [Here](https://github.com/SDGreen/Walkee/blob/master/wireframes/WalkeeWireframesLaptop.pdf)
-
-Wireframes for the mobile versions of the site can be found [Here](https://github.com/SDGreen/Walkee/blob/master/Wireframes/WalkeeWireframesPhone.pdf)
+As the wireframes for both the mobile and desktop version are ver similar, only the mobile versions have been provided with any differences described within that page.
+Wireframes for the mobile version of the site can be found [Here](https://github.com/SDGreen/TotalTarot/blob/master/assets/wireframes/total-tarot-wireframes.pdf)
 
 ## Features
 ### Existing Features
