@@ -683,6 +683,7 @@ nav .navbar-toggler{
 }
 
 .card-back {
+    cursor: default; 
   -webkit-transform: rotateY( 180deg );
           transform: rotateY( 180deg );
 }
